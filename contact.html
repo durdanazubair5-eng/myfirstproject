@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>School Website</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./img/Best School.png" style="width: 150px;"></a>
+            <div class="nav-links" id="navlinks">
+                <img src="./img/closewhite.png" class="fa-solid" onclick="hideMenu()" style="width: 15px;">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/courses.html">Courses</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                </ul>
+            </div>
+            <img src="./img/menuwhite.png" class="fa-solid" onclick="showMenu()" style="width: 15px;">
+        </nav>
+        <div class="text-box">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+    <!-- ---------contact us---------- -->
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14472.007658179316!2d67.05108900030285!3d24.932004696118675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f6fec3bc277%3A0x7cb2380961518fc7!2sStanmore%20School%20(Main%20Campus)!5e0!3m2!1sen!2s!4v1758909831083!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <i></i>
+            <span>
+                <h5>XYZ Road, Ab Building</h5>
+                <p>Karachi, Sindh, PK</p>
+            </span>
+        </div>
+            <div class="contact-col">
+            <i></i>
+            <span>
+                <h5>0321*******</h5>
+                <p>Monday to Friday , 10Am to 6PM</p>
+            </span>
+        </div>
+            <div class="contact-col">
+            <i></i>
+            <span>
+                <h5>ABC@gmail.com</h5>
+                <p>Email us Your Query</p>
+            </span>
+        </div>
+    </div>
+</section>
+
+
+         <!-- -----footer section---- -->
+
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sint ullam porro aspernatur dolorem facere fuga. Vitae magni rerum alias.</p>
+         </section>
+    <!-- -----JavaScript For Toggle Menu---- -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right= "0";
+        }
+         function hideMenu(){
+            navlinks.style.right= "-200px";
+        }
+    </script>
+    
+</body>
+</html>
