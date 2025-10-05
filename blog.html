@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>School Website</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./img/Best School.png" style="width: 150px;"></a>
+            <div class="nav-links" id="navlinks">
+                <img src="./img/closewhite.png" class="fa-solid" onclick="hideMenu()" style="width: 15px;">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/courses.html">Courses</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                </ul>
+            </div>
+            <img src="./img/menuwhite.png" class="fa-solid" onclick="showMenu()" style="width: 15px;">
+        </nav>
+        <div class="text-box">
+            <h1>Our Certificate & online Program For 2026</h1>
+        </div>
+    </section>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./img/kidwriting.jpg" alt="">
+                <h2>Our Certificate & online Program For 2026</h2>
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum fugiat, magnam repellendus accusantium ratione voluptates ea rerum doloremque eos vel quam nostrum aspernatur deleniti libero facilis repellat dicta, eius minus voluptatem neque dolorum distinctio, voluptas beatae? Sequi omnis vel quos? Delectus, in eaque doloribus atque saepe nesciunt corporis possimus velit dolores nisi esse eius quas molestiae ad natus? Harum laborum placeat quis, atque repudiandae vero omnis asperiores doloribus perspiciatis nesciunt quos quidem magni delectus alias necessitatibus quisquam. Libero, deserunt optio. Iusto dignissimos natus accusantium voluptatum cumque, cupiditate, non nostrum ipsa ratione distinctio deserunt. Nulla fugiat libero eligendi maiores! Quidem, recusandae?</p>
+            <br>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum fugiat, magnam repellendus accusantium ratione voluptates ea rerum doloremque eos vel quam nostrum aspernatur deleniti libero facilis repellat dicta, eius minus voluptatem neque dolorum distinctio, voluptas beatae? Sequi omnis vel quos? Delectus, in eaque doloribus atque saepe nesciunt corporis possimus velit dolores nisi esse eius quas molestiae ad natus? Harum laborum placeat quis, atque repudiandae vero omnis asperiores doloribus perspiciatis nesciunt quos quidem magni delectus alias necessitatibus quisquam. Libero, deserunt optio. Iusto dignissimos natus accusantium voluptatum cumque, cupiditate, non nostrum ipsa ratione distinctio deserunt. Nulla fugiat libero eligendi maiores! Quidem, recusandae?</p>
+              <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum fugiat, magnam repellendus accusantium ratione voluptates ea rerum doloremque eos vel quam nostrum aspernatur deleniti libero facilis repellat dicta, eius minus voluptatem neque dolorum distinctio, voluptas beatae? Sequi omnis vel quos? Delectus, in eaque doloribus atque saepe nesciunt corporis possimus velit dolores nisi esse eius quas molestiae ad natus? Harum laborum placeat quis, atque repudiandae vero omnis asperiores doloribus perspiciatis nesciunt quos quidem magni delectus alias necessitatibus quisquam. Libero, deserunt optio. Iusto dignissimos natus accusantium voluptatum cumque, cupiditate, non nostrum ipsa ratione distinctio deserunt. Nulla fugiat libero eligendi maiores! Quidem, recusandae?</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your CommentS"></textarea>
+                        <button type="submit" class="btnmain redbtn">Post Comment</button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+               <h3>Post Categories</h3> 
+               <div>
+                <span>Business Analytics</span>
+                <span>18</span>
+               </div>
+               <div>
+                <span>Data Science</span>
+                <span>20</span>
+               </div>
+               <div>
+                <span>Machine Learning</span>
+                <span>19</span>
+               </div>
+            </div>
+        </div>
+
+    </section>
+         <!-- -----footer section---- -->
+
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sint ullam porro aspernatur dolorem facere fuga. Vitae magni rerum alias.</p>
+         </section>
+    <!-- -----JavaScript For Toggle Menu---- -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right= "0";
+        }
+         function hideMenu(){
+            navlinks.style.right= "-200px";
+        }
+    </script>
+    
+</body>
+</html>
