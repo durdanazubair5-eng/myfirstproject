@@ -1,127 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>School Website</title>
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>School Website</title>
 </head>
 <body>
-
-  <!-- Header -->
-  <section class="header">
-    <nav>
-      <a href="index.html" class="logo"><img src="./img/Best School.png" alt="Logo"></a>
-      <div class="nav-links" id="navlinks">
-        <button class="close-btn" onclick="hideMenu()">×</button>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Teachers</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">About Us</a></li>
-        </ul>
-      </div>
-      <button class="menu-btn" onclick="showMenu()">☰</button>
-    </nav>
-
-    <div class="text-box">
-      <h1>Most Advance School</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat adipisci explicabo magni voluptate distinctio temporibus.</p>
-      <a href="#" class="btnmain">Learn More</a>
-    </div>
-  </section>
-
-  <!-- Courses -->
-  <section class="course">
-    <h1>Courses We Offer</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <div class="row">
-      <div class="course-col">
-        <h3>Intermediate</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eveniet voluptatem delectus?</p>
-      </div>
-      <div class="course-col">
-        <h3>Degree</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eveniet voluptatem delectus?</p>
-      </div>
-      <div class="course-col">
-        <h3>Post Graduation</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eveniet voluptatem delectus?</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Facilities -->
-  <section class="facilities">
-    <h1>Our Facilities</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <div class="row">
-      <div class="facilities-col">
-        <img src="./img/librarypic.jpg" alt="">
-        <h3>World Class Library</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
-      <div class="facilities-col">
-        <img src="./img/t-h-chia-Pc8CUg8F_W0-unsplash.jpg" alt="">
-        <h3>Kids Playing Area</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
-      <div class="facilities-col">
-        <img src="./img/cdc-4Bb2nSYuxx0-unsplash.jpg" alt="">
-        <h3>Tasty and Healthy Food</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="testimonials">
-    <h1>What Students Say</h1>
-    <div class="row">
-      <div class="testimonials-col">
-        <img src="./img/sedk-mahmoud-cBtrsNMxB14-unsplash.jpg" alt="">
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <h3>Mahmood Khan</h3>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./img/Best School.png" style="width: 150px;"></a>
+            <div class="nav-links" id="navlinks">
+                <img src="./img/closewhite.png" class="fa-solid" onclick="hideMenu()" style="width: 15px;">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <img src="./img/menuwhite.png" class="fa-solid" onclick="showMenu()" style="width: 15px;">
+        </nav>
+        <div class="text-box">
+            <h1>About Us</h1>
+        </div>
+    </section>
+    <!-- ----------About Us Content---------- -->
+     <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the Best school in Country</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore recusandae mollitia iste. Labore, inventore. Nulla vel voluptatum, doloremque, tenetur incidunt in molestias quisquam distinctio tempora pariatur sit doloribus asperiores ex quas molestiae est dolor iste deserunt dolorum cupiditate, sint et? Soluta laborum odit quod reiciendis inventore unde cumque esse sunt.</p>
+          <a href="" class="btnmain redbtn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col ">
+          <img src="img/kidsgoingschool.jpg" alt="">
         </div>
       </div>
-      <div class="testimonials-col">
-        <img src="./img/luiza-braun-1zy5hklBNvI-unsplash.jpg" alt="">
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <h3>Anabia Khan</h3>
-        </div>
-      </div>
-    </div>
-  </section>
+     </section>
 
-  <!-- Call to Action -->
-  <section class="cta">
-    <h1>Enroll in Our Online Courses<br>Anywhere in the World</h1>
-    <a href="#" class="btnmain">Contact Us</a>
-  </section>
 
-  <!-- Footer -->
-  <section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sint ullam porro aspernatur dolorem facere fuga.</p>
-  </section>
+         <!-- -----footer section---- -->
 
-  <!-- JavaScript -->
-  <script>
-    const navlinks = document.getElementById("navlinks");
-    function showMenu() {
-      navlinks.style.right = "0";
-    }
-    function hideMenu() {
-      navlinks.style.right = "-250px";
-    }
-  </script>
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sint ullam porro aspernatur dolorem facere fuga. Vitae magni rerum alias.</p>
+         </section>
+    <!-- -----JavaScript For Toggle Menu---- -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right= "0";
+        }
+         function hideMenu(){
+            navlinks.style.right= "-200px";
+        }
+    </script>
+    
 </body>
 </html>
